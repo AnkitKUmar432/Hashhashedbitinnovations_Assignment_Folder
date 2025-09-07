@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Toggle Example</title>
+    <style>
+        /* Basic body styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Main app container */
+        #app {
+            height: 100vh;
+            padding: 20px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        /* Day theme */
+        .day {
+            background-color: white;
+            color: black;
+        }
+
+        /* Night theme */
+        .night {
+            background-color: black;
+            color: gold;
+        }
+
+        /* Button styling */
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        /* Day button */
+        .button_day {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+        }
+
+        /* Night button */
+        .button_night {
+            background-color: darkblue;
+            color: white;
+        }
+
+        /* Paragraph styling */
+        p {
+            font-size: 18px;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app" class="day">
+        <p>I am a HashedBit student, ready to become an awesome full stack developer</p>
+        <button id="swap" class="button_day" onclick="swapTheme()">Toggle Theme</button>
+    </div>
+
+    <!-- Link your JS file without changing -->
+    <script src="Q1.js"></script>
+
+</body>
+
+</html>
