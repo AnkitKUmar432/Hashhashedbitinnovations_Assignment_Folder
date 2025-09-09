@@ -14,7 +14,6 @@ function repeatedSum(n) {
         n = sum;
     }
         return n;
-
 }
  console.log(repeatedSum(605));
  

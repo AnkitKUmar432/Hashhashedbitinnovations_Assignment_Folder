@@ -59,17 +59,17 @@
 
 // Create an array of numbers and write a function that uses the map() method to return a new array containing each number squared.
 
-// let arrayNumber = [5,10,9,32,20,13,18,19];
+// let arrayNumber1 = [5,10,9,32,20,13,18,19];
 
-// let numberSquare = [];
-// arrayNumber.map((data)=>{
-//     console.log(data*data);
-//     numberSquare.push(data*data)
-// })
+// // let numberSquare = [];
+// // arrayNumber.map((data)=>{
+// //     console.log(data*data);
+// //     numberSquare.push(data*data)
+// // })
 
-// Or
+// // Or
 
-// let numberSquare = arrayNumber.map((data)=>data*data)
+// let numberSquare = arrayNumber1.map((data)=>data*data)
 // console.log(numberSquare);
 
 
@@ -78,8 +78,8 @@
 
 // Write a function that filters out all even numbers from an array of numbers using the filter() method. Return the new array of odd numbers
 
-// const arrayNumber = [5,10,9,32,20,13,18,19,7,30];
-// let evenNumber = arrayNumber.filter((data)=> data % 2 !== 0);
+// const arrayNumber1 = [5,10,9,32,20,13,18,19,7,30];
+// let evenNumber = arrayNumber1.filter((data)=> data % 2 !== 0);
 // console.log(evenNumber);
 
 

@@ -54,7 +54,7 @@ getStyle.addEventListener('click', () => {
 
   // Copy to clipboard
   navigator.clipboard.writeText(styleCopy).then(() => {
-    alert("CSS copied to clipboard!");
+    alert("You can copy this CSS");
   }).catch(err => {
     console.error("Failed to copy: ", err);
   });

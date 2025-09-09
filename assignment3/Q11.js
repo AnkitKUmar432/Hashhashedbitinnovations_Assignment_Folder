@@ -24,6 +24,8 @@ let InputData = {
     }
 };
 
+
+
 let result = {};
 for (let student in InputData){
     // console.log(student);
